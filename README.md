@@ -16,4 +16,4 @@ go run *.go 8081
 
 ## Built With
 
-* [Gorilla Mux]https://github.com/gorilla/mux) - The web framework used
+* [Gorilla Mux](https://github.com/gorilla/mux) - The web framework used
