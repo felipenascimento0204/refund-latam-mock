@@ -1,8 +1,9 @@
 package business
 
 import (
-	transport "refund-latam-mock/transport"
 	"time"
+
+	transport "github.com/felipenascimento0204/refund-latam-mock/transport"
 )
 
 const dateCreationFormat = "02-01-2006"
