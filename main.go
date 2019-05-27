@@ -7,9 +7,9 @@ import (
 	"net/http"
 	"os"
 
-	business "github.com/felipenascimento0204/refund-latam-mock/business"
+	"github.com/felipenascimento0204/refund-latam-mock/business"
 
-	transport "github.com/felipenascimento0204/refund-latam-mock/transport"
+	"github.com/felipenascimento0204/refund-latam-mock/transport"
 
 	"github.com/gorilla/mux"
 )
