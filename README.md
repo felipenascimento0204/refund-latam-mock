@@ -11,7 +11,7 @@ Golang
 If the port is not informed, the default is 8080
 
 ```
-go run *.go 8081
+go run *.go 8081 | make PORT="8081" run
 ```
 
 ## Built With
