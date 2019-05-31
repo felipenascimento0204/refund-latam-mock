@@ -14,7 +14,7 @@ import (
 	"github.com/gorilla/mux"
 )
 
-//http://localhost:8080/refund-latam/api/v1/DisplayIdentifyDocumentsRefund/document/1234/pnr/abc
+//http://localhost:8080/refund-latam/api/v1/DisplayIdentifyDocumentsRefund/document/12345678900/pnr/ABCDEF
 func displayRefundHandler(w http.ResponseWriter, r *http.Request) {
 	vars := mux.Vars(r)
 	displayRefundResponse := business.DisplayDocumentRefund(vars["document"], vars["pnr"])
